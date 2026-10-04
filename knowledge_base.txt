@@ -1,0 +1,6 @@
+Topic: W3C ARIA Dialog (Modal) Pattern
+Key Requirements:
+1. Focus Trapping: When the modal opens, keyboard focus MUST be moved to an element inside the dialog (usually the first interactive element or the close button). Focus must never escape to background elements when pressing Tab or Shift+Tab.
+2. Escape Key: Pressing Escape must close the dialog.
+3. Focus Restoration: Upon closing, focus MUST be returned to the exact element that triggered the dialog opening.
+4. ARIA Semantics: The container requires role="dialog" or role="alertdialog", aria-modal="true", and aria-labelledby referencing the title element.

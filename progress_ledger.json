@@ -1,0 +1,8 @@
+[
+  {
+    "timestamp": "2026-10-04T11:50:36.785Z",
+    "topic": "modal_dialog",
+    "score": 40,
+    "notes": "Candidate correctly identified initial focus placement and Tab/Shift+Tab focus wrapping mechanics. Missing key requirements: Escape key dismissal, focus restoration to the triggering element upon close, and required ARIA semantics (role=\"dialog\", aria-modal=\"true\", aria-labelledby)."
+  }
+]
